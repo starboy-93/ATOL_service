@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATOL_service", "ATOL_service\ATOL_service.csproj", "{336A2BA7-8979-43A8-81A1-3E51270EBBB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{336A2BA7-8979-43A8-81A1-3E51270EBBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336A2BA7-8979-43A8-81A1-3E51270EBBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336A2BA7-8979-43A8-81A1-3E51270EBBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336A2BA7-8979-43A8-81A1-3E51270EBBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EC93C29-2FF6-4271-BEA8-C9BB87602897}
+	EndGlobalSection
+EndGlobal
