@@ -50,9 +50,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Atol.Drivers10.Fptr, Version=10.10.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\ATOL\Drivers10\KKT\langs\csharp\Atol.Drivers10.Fptr.dll</HintPath>
+    <Reference Include="Atol.Drivers10.Fptr">
+      <HintPath>.\Atol.Drivers10.Fptr.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

@@ -24,7 +24,7 @@ namespace ATOL_service
             }
             catch (System.IO.FileNotFoundException)
             {
-                Console.WriteLine("Атол \"Тест драйвера ККТ\" не установлен. \nОбратитесь в IT отдел по номеру 8-962-916-71-82");
+                Console.WriteLine("Атол \"Тест драйвера ККТ\" не установлен.");
                 Console.ReadLine();
             }
         }
@@ -120,7 +120,7 @@ namespace ATOL_service
             {
                 int daysBetween = (FNexpiryDateTime - DateTime.Now).Days;
                 Console.WriteLine($"ФН на кассе заканчивается {FNexpiryDateTime.Date} через {daysBetween} дней");
-                Console.WriteLine("Если до конца ФН меньше 7 дней, обратитесь в IT отдел по номеру 8-962-916-71-82");
+                Console.WriteLine("Если до конца ФН меньше 7 дней, обратитесь к фиксикам");
             }
         }
 
@@ -135,7 +135,7 @@ namespace ATOL_service
                 Console.WriteLine($"Дата и время последней успешной отправки документа в ОФД: <Не определено>");
             else
                 Console.WriteLine($"Дата и время последней успешной отправки документа в ОФД: {OfdLastSuccessedDocTime}");
-            Console.WriteLine("Если дата меньше вчерашней или не определена, обратитесь в IT отдел по номеру 8-962-916-71-82");
+            Console.WriteLine("Если дата меньше вчерашней или не определена, обратитесь к фиксикам");
         }
 
         private static void AppKill(string proccess)
